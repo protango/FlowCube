@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="PIANOTILE.exe" version="1.0.0.0" publicKeyToken="c50590872ce50613" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PIANOTILE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PIANOTILE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PIANOTILE.exe" size="10800128">
+      <assemblyIdentity name="PIANOTILE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>J5THmNX16KShBQoStycyRIXPx0Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Zachary-PC\Zachary Murray" issuerKeyHash="d7ad4ae284256eb48babe2c0f3144fce143c8ed3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nhe1mZEdiIagP1VwHMGjjdNQYW0=</DigestValue></Reference></SignedInfo><SignatureValue>uebXWcWEkdnNEVPloTybZvFLDPXqJ+RZV6dR4gaqKzkTN2AcEZWSDU55DVM2izDFc533bqOFJVsUezQl+YigSiqqmbDfioirCHZrAkn6abZY1Vb0nWvCIbtYsyP4ltozx0vCsc13JsYLoWDwxgwP6V8HtrkSKm7/eTKalYyWNl4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wCF0HvLHj46530XxgU5XItNsxV7DzFpsoA2PWv68KIw+m9pH0NAi80wfvmP25OcZ1k1RsFCOiSU8NFQeOPOtFoqHKdm7tyA92rIK8WR6QcPQBDv1FzSd0w5BeUNHii5+jDPtqnGyFSd0tLLKup3kkBon8Ycdx0FL3dRq4f7WYgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6d6150d38da3c11c70553fa086881d9199b5179e" Description="" Url=""><as:assemblyIdentity name="PIANOTILE.exe" version="1.0.0.0" publicKeyToken="c50590872ce50613" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Zachary-PC\Zachary Murray</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vNBpfP/FW85QFjjzWlUDxSwGy4w=</DigestValue></Reference></SignedInfo><SignatureValue>OpQSyftlPb0F+hipzPXtX7LTmiQyBEfMlY1z9UU5ZP/0+OfTVsv7wopTjOMX2s7ErquCQhmS3NN/EzNbKyApRSxc650oWn5MBidglTMr6EpWHBkUeiNJkk7sCW2daQcCTIjFVTgmTfmkcyiBVzZNVFRh254txxXsWFBaxGryhRc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wCF0HvLHj46530XxgU5XItNsxV7DzFpsoA2PWv68KIw+m9pH0NAi80wfvmP25OcZ1k1RsFCOiSU8NFQeOPOtFoqHKdm7tyA92rIK8WR6QcPQBDv1FzSd0w5BeUNHii5+jDPtqnGyFSd0tLLKup3kkBon8Ycdx0FL3dRq4f7WYgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQc1q6CLx4OotMKoQdhxEDUjANBgkqhkiG9w0BAQUFADA9MTswOQYDVQQDHjIAWgBhAGMAaABhAHIAeQAtAFAAQwBcAFoAYQBjAGgAYQByAHkAIABNAHUAcgByAGEAeTAeFw0xNDA1MjgxMzU5MDFaFw0xNTA1MjgxOTU5MDFaMD0xOzA5BgNVBAMeMgBaAGEAYwBoAGEAcgB5AC0AUABDAFwAWgBhAGMAaABhAHIAeQAgAE0AdQByAHIAYQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAIXQe8sePjrnfRfGBTlci02zFXsPMWmygDY9a/rwojD6b2kfQ0CLzTB++Y/bk5xnWTVGwUI6JJTw0VB44860Wiocp2bu3ID3asgrxZHpBw9AEO/UXNJ3TDkF5Q0eKLn6MM+2qcbIVJ3S0ssq6neSQGifxhx3HQUvd1Grh/tZiAQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACMZNsFTm6OGZY6o/NsRSbW3hgFgkBeByg+r++XXvLTjXW9ZujIniA8uiknLy182i14f3tbkFWFTr/mm+J4AqUjeaRtKzciwfswcxV0G3009Ve6VbGCgnxSLxZh9XGdMv74K4ArAH/MZp7CBKpZFnxmoFw82JJa2V5Tuikj1NCYD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
